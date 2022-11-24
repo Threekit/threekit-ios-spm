@@ -1,0 +1,1012 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Threekit_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Threekit_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Threekit_Framework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftyJSON",
+        "printedName": "SwiftyJSON",
+        "declKind": "Import",
+        "moduleName": "Threekit_Framework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThreekitPlayer",
+        "printedName": "ThreekitPlayer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(threekit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreekitPlayer",
+                "printedName": "Threekit_Framework.ThreekitPlayer",
+                "usr": "s:18Threekit_Framework0A6PlayerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ThreekitSDK",
+                "printedName": "Threekit_Framework.ThreekitSDK",
+                "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18Threekit_Framework0A6PlayerV8threekitAcA0A3SDKC_tcfc",
+            "mangledName": "$s18Threekit_Framework0A6PlayerV8threekitAcA0A3SDKC_tcfc",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<Threekit_Framework.ThreekitPlayer>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThreekitPlayer",
+                    "printedName": "Threekit_Framework.ThreekitPlayer",
+                    "usr": "s:18Threekit_Framework0A6PlayerV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18Threekit_Framework0A6PlayerV10makeUIView7contextSo9WKWebViewC7SwiftUI0E20RepresentableContextVyACG_tF",
+            "mangledName": "$s18Threekit_Framework0A6PlayerV10makeUIView7contextSo9WKWebViewC7SwiftUI0E20RepresentableContextVyACG_tF",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<Threekit_Framework.ThreekitPlayer>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThreekitPlayer",
+                    "printedName": "Threekit_Framework.ThreekitPlayer",
+                    "usr": "s:18Threekit_Framework0A6PlayerV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18Threekit_Framework0A6PlayerV12updateUIView_7contextySo9WKWebViewC_7SwiftUI0E20RepresentableContextVyACGtF",
+            "mangledName": "$s18Threekit_Framework0A6PlayerV12updateUIView_7contextySo9WKWebViewC_7SwiftUI0E20RepresentableContextVyACGtF",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeCoordinator",
+            "printedName": "makeCoordinator()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreekitPlayerViewCoordinator",
+                "printedName": "Threekit_Framework.ThreekitPlayerViewCoordinator",
+                "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitPlayerViewCoordinator"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18Threekit_Framework0A6PlayerV15makeCoordinatorAA0ac4ViewE0CyF",
+            "mangledName": "$s18Threekit_Framework0A6PlayerV15makeCoordinatorAA0ac4ViewE0CyF",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18Threekit_Framework0A6PlayerV",
+        "mangledName": "$s18Threekit_Framework0A6PlayerV",
+        "moduleName": "Threekit_Framework",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThreekitPlayerViewCoordinator",
+                    "printedName": "Threekit_Framework.ThreekitPlayerViewCoordinator",
+                    "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitPlayerViewCoordinator"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThreekitPlayerViewCoordinator",
+        "printedName": "ThreekitPlayerViewCoordinator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreekitPlayerViewCoordinator",
+                "printedName": "Threekit_Framework.ThreekitPlayerViewCoordinator",
+                "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitPlayerViewCoordinator"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitPlayerViewCoordinator(im)init",
+            "mangledName": "$s18Threekit_Framework0A21PlayerViewCoordinatorCACycfc",
+            "moduleName": "Threekit_Framework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitPlayerViewCoordinator",
+        "mangledName": "$s18Threekit_Framework0A21PlayerViewCoordinatorC",
+        "moduleName": "Threekit_Framework",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThreekitSDK",
+        "printedName": "ThreekitSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftyJSON.JSON?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JSON",
+                    "printedName": "SwiftyJSON.JSON",
+                    "usr": "s:10SwiftyJSON0B0V"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvp",
+            "mangledName": "$s18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvp",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftyJSON.JSON?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSON",
+                        "printedName": "SwiftyJSON.JSON",
+                        "usr": "s:10SwiftyJSON0B0V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvg",
+                "mangledName": "$s18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvg",
+                "moduleName": "Threekit_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftyJSON.JSON?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "JSON",
+                        "printedName": "SwiftyJSON.JSON",
+                        "usr": "s:10SwiftyJSON0B0V"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvs",
+                "mangledName": "$s18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvs",
+                "moduleName": "Threekit_Framework",
+                "implicit": true,
+                "intro_iOS": "14.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvM",
+                "mangledName": "$s18Threekit_Framework0A3SDKC10attributes10SwiftyJSON0F0VSgvM",
+                "moduleName": "Threekit_Framework",
+                "implicit": true,
+                "intro_iOS": "14.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$attributes",
+            "printedName": "$attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<SwiftyJSON.JSON>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_Gvp",
+            "mangledName": "$s18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_Gvp",
+            "moduleName": "Threekit_Framework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<SwiftyJSON.JSON>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_Gvg",
+                "mangledName": "$s18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_Gvg",
+                "moduleName": "Threekit_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<SwiftyJSON.JSON>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_Gvs",
+                "mangledName": "$s18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_Gvs",
+                "moduleName": "Threekit_Framework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_GvM",
+                "mangledName": "$s18Threekit_Framework0A3SDKC11$attributes7Combine9PublishedV9PublisherVy10SwiftyJSON0I0VSg_GvM",
+                "moduleName": "Threekit_Framework",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(assetId:authToken:threekitDomain:showConfigurator:publishStage:allowMobileVerticalOrbit:showLoadingThumbnail:showLoadingProgress:showAR:embedDomain:stageId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreekitSDK",
+                "printedName": "Threekit_Framework.ThreekitSDK",
+                "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitSDK"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18Threekit_Framework0A3SDKC7assetId9authToken14threekitDomain16showConfigurator12publishStage24allowMobileVerticalOrbit0J16LoadingThumbnail0jR8Progress0J2AR05embedI005stageE0ACSS_S2SSbSSS4bS2Stcfc",
+            "mangledName": "$s18Threekit_Framework0A3SDKC7assetId9authToken14threekitDomain16showConfigurator12publishStage24allowMobileVerticalOrbit0J16LoadingThumbnail0jR8Progress0J2AR05embedI005stageE0ACSS_S2SSbSSS4bS2Stcfc",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitSDK(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s18Threekit_Framework0A3SDKC21userContentController_10didReceiveySo06WKUsereF0C_So15WKScriptMessageCtF",
+            "moduleName": "Threekit_Framework",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getConfiguration",
+            "printedName": "getConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18Threekit_Framework0A3SDKC16getConfigurationyyF",
+            "mangledName": "$s18Threekit_Framework0A3SDKC16getConfigurationyyF",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDisplayAttributes",
+            "printedName": "getDisplayAttributes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18Threekit_Framework0A3SDKC20getDisplayAttributesyyF",
+            "mangledName": "$s18Threekit_Framework0A3SDKC20getDisplayAttributesyyF",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setConfiguration",
+            "printedName": "setConfiguration(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18Threekit_Framework0A3SDKC16setConfiguration13configurationySDySSypG_tF",
+            "mangledName": "$s18Threekit_Framework0A3SDKC16setConfiguration13configurationySDySSypG_tF",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreekitSDK",
+                "printedName": "Threekit_Framework.ThreekitSDK",
+                "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitSDK(im)init",
+            "mangledName": "$s18Threekit_Framework0A3SDKCACycfc",
+            "moduleName": "Threekit_Framework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Threekit_Framework@objc(cs)ThreekitSDK",
+        "mangledName": "$s18Threekit_Framework0A3SDKC",
+        "moduleName": "Threekit_Framework",
+        "intro_iOS": "14.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ThreekitRequest",
+        "printedName": "ThreekitRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(authToken:orgId:threekitDomain:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThreekitRequest",
+                "printedName": "Threekit_Framework.ThreekitRequest",
+                "usr": "s:18Threekit_Framework0A7RequestC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18Threekit_Framework0A7RequestC9authToken5orgId14threekitDomainACSS_S2Stcfc",
+            "mangledName": "$s18Threekit_Framework0A7RequestC9authToken5orgId14threekitDomainACSS_S2Stcfc",
+            "moduleName": "Threekit_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18Threekit_Framework0A7RequestC",
+        "mangledName": "$s18Threekit_Framework0A7RequestC",
+        "moduleName": "Threekit_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "StringLiteral",
+      "offset": 5436,
+      "length": 29,
+      "value": "\"Threekit_Framework.ThreekitPlayerViewCoordinator\""
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7995,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "StringLiteral",
+      "offset": 8025,
+      "length": 7,
+      "value": "\"draft\""
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8103,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8137,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8158,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "StringLiteral",
+      "offset": 8187,
+      "length": 30,
+      "value": "\"https:\/\/preview.threekit.com\""
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "StringLiteral",
+      "offset": 8237,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "kind": "StringLiteral",
+      "offset": 7170,
+      "length": 11,
+      "value": "\"Threekit_Framework.ThreekitSDK\""
+    }
+  ]
+}

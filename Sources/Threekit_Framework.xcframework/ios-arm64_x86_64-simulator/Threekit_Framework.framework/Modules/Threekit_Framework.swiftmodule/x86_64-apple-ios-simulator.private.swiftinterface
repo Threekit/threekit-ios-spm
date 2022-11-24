@@ -1,0 +1,52 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Threekit_Framework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Swift
+import SwiftUI
+import SwiftyJSON
+@_exported import Threekit_Framework
+import WebKit
+import _Concurrency
+import _StringProcessing
+@available(iOS 14.0, *)
+public struct ThreekitPlayer : SwiftUI.UIViewRepresentable {
+  public init(threekit: Threekit_Framework.ThreekitSDK)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: Threekit_Framework.ThreekitPlayer.Context) -> WebKit.WKWebView
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ webView: WebKit.WKWebView, context: Threekit_Framework.ThreekitPlayer.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> Threekit_Framework.ThreekitPlayerViewCoordinator
+  public typealias Body = Swift.Never
+  public typealias Coordinator = Threekit_Framework.ThreekitPlayerViewCoordinator
+  public typealias UIViewType = WebKit.WKWebView
+}
+@objc @_hasMissingDesignatedInitializers @available(iOS 14.0, *)
+public class ThreekitPlayerViewCoordinator : ObjectiveC.NSObject, WebKit.WKNavigationDelegate {
+  @objc deinit
+}
+@objc @available(iOS 14.0, *)
+public class ThreekitSDK : ObjectiveC.NSObject, Combine.ObservableObject, WebKit.WKScriptMessageHandler, WebKit.WKNavigationDelegate {
+  @Combine.Published @_projectedValueProperty($attributes) public var attributes: SwiftyJSON.JSON? {
+    get
+    @available(iOS 14.0, *)
+    set
+    @available(iOS 14.0, *)
+    _modify
+  }
+  public var $attributes: Combine.Published<SwiftyJSON.JSON?>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public init(assetId: Swift.String, authToken: Swift.String, threekitDomain: Swift.String, showConfigurator: Swift.Bool = false, publishStage: Swift.String = "draft", allowMobileVerticalOrbit: Swift.Bool = false, showLoadingThumbnail: Swift.Bool = true, showLoadingProgress: Swift.Bool = true, showAR: Swift.Bool = false, embedDomain: Swift.String = "https://preview.threekit.com", stageId: Swift.String = "")
+  @objc public func userContentController(_: WebKit.WKUserContentController, didReceive: WebKit.WKScriptMessage)
+  public func getConfiguration()
+  public func getDisplayAttributes()
+  public func setConfiguration(configuration: Swift.Dictionary<Swift.String, Any>)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+public class ThreekitRequest {
+  public init(authToken: Swift.String, orgId: Swift.String, threekitDomain: Swift.String)
+  @objc deinit
+}

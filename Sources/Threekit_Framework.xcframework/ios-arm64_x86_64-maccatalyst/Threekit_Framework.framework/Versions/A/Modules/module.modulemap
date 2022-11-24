@@ -1,0 +1,11 @@
+framework module Threekit_Framework {
+  umbrella header "Threekit_Framework.h"
+
+  export *
+  module * { export * }
+}
+
+module Threekit_Framework.Swift {
+  header "Threekit_Framework-Swift.h"
+  requires objc
+}
