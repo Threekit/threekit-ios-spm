@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Threekit_Framework",
-            path: "./Sources/Threekit_Framework.xcframework")
-        ,
+            path: "./Sources/Threekit_Framework.xcframework"),
+        .target(name: "Core", dependencies: ["Threekit_Framework", "SwiftyJSON"])
     ]
 )
