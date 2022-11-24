@@ -7,8 +7,8 @@ let package = Package(
     name: "Threekit_Framework_Package",
     products: [
         .library(
-            name: "Threekit_Framework",
-            targets: ["Threekit_Framework"]
+            name: "Threekit",
+            targets: ["Core"]
         )
     ],
     dependencies: [
