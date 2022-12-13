@@ -6,7 +6,7 @@ The **Threekit iOS Swift Package** is an iOS SDK that can be used to add a Three
 
 The **ThreekitSDK** is a class responsible for establishing and maintaining a connection to the Threekit backend, exposing all API functionality to interact with the Threekit Player through the configurator and to manage Threekit state.
 
-The **ThreekitPlayer** is a UI-View component that consumes the instance of the ThreekitSDK and uses a WebView component to render out the Threekit 3D/2D Player.
+The **ThreekitPlayer** is a UI-View component that consumes the instance of the ThreekitSDK will render out the Threekit 3D or 2D Player.
 
 ## Getting Started
 
