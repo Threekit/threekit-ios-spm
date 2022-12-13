@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Threekit Framework Package** is an iOS SDK that can be used to add a Threekit 2D/3D Player into a iOS app. The package exports two APIs, **ThreekitSDK** and **ThreekitPlayer**.
+The **Threekit iOS Swift Package** is an iOS SDK that can be used to add a Threekit 2D/3D Player into a iOS app. The package exports two APIs, **ThreekitSDK** and **ThreekitPlayer**.
 
 The **ThreekitSDK** is a class responsible for establishing and maintaining a connection to the Threekit backend, exposing all API functionality to interact with the Threekit Player through the configurator and to manage Threekit state.
 
