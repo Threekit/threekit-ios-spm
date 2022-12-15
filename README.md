@@ -10,6 +10,8 @@ The **ThreekitPlayer** is a UI-View component that consumes the instance of the 
 
 ## Getting Started
 
+Import the package into your project using this repositories github url: https://github.com/Threekit/threekit-ios-spm. Then import into the file you want to use the package by adding `import Threekit_Framework`.
+
 ## ThreekitSDK
 
 ### The Class
