@@ -939,72 +939,72 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "StringLiteral",
-      "offset": 5436,
+      "offset": 5441,
       "length": 29,
       "value": "\"Threekit_Framework.ThreekitPlayerViewCoordinator\""
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "BooleanLiteral",
-      "offset": 7995,
+      "offset": 8000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "StringLiteral",
-      "offset": 8025,
+      "offset": 8030,
       "length": 7,
       "value": "\"draft\""
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "BooleanLiteral",
-      "offset": 8067,
+      "offset": 8072,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "BooleanLiteral",
-      "offset": 8103,
+      "offset": 8108,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "BooleanLiteral",
-      "offset": 8137,
+      "offset": 8142,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "BooleanLiteral",
-      "offset": 8158,
+      "offset": 8163,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "StringLiteral",
-      "offset": 8187,
+      "offset": 8192,
       "length": 30,
       "value": "\"https:\/\/preview.threekit.com\""
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "StringLiteral",
-      "offset": 8237,
+      "offset": 8242,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kevinwentland\/Code\/Threekit_Framework\/Threekit_Framework\/Threekit.swift",
+      "filePath": "\/Users\/kevinwentland\/Code\/iOS_SDK\/Framework\/Threekit_Framework\/Threekit.swift",
       "kind": "StringLiteral",
-      "offset": 7170,
+      "offset": 7175,
       "length": 11,
       "value": "\"Threekit_Framework.ThreekitSDK\""
     }
