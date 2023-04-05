@@ -37,7 +37,7 @@ public class ThreekitSDK : ObjectiveC.NSObject, Combine.ObservableObject, WebKit
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
-  public init(assetId: Swift.String, authToken: Swift.String, threekitDomain: Swift.String, showConfigurator: Swift.Bool = false, publishStage: Swift.String = "draft", allowMobileVerticalOrbit: Swift.Bool = false, showLoadingThumbnail: Swift.Bool = true, showLoadingProgress: Swift.Bool = true, showAR: Swift.Bool = false, embedDomain: Swift.String = "https://preview.threekit.com", stageId: Swift.String = "")
+  public init(assetId: Swift.String, authToken: Swift.String, threekitEnv: Swift.String, showConfigurator: Swift.Bool = false, publishStage: Swift.String = "draft", allowMobileVerticalOrbit: Swift.Bool = false, showLoadingThumbnail: Swift.Bool = true, showLoadingProgress: Swift.Bool = true, showAR: Swift.Bool = false, embedDomain: Swift.String = "https://preview.threekit.com", stageId: Swift.String = "", configurationId: Swift.String = "", customId: Swift.String = "", useChinaProxy: Swift.Bool = false)
   @objc public func userContentController(_: WebKit.WKUserContentController, didReceive: WebKit.WKScriptMessage)
   public func getConfiguration()
   public func getDisplayAttributes()
