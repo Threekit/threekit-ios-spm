@@ -20,4 +20,8 @@ let package = Package(
             path: "./Sources/Threekit_Framework.xcframework"),
         .target(name: "Core", dependencies: ["Threekit_Framework", "SwiftyJSON"])
     ]
-)
+);
+
+let version = Version(1, 0, 1);
+
+
